@@ -238,11 +238,13 @@ nav {
 
 #partner-section {
 	height: 600px;
-	background-color: white;
-
-	transform: skewY(-0.05rad);
 
 	overflow: hidden;
+}
+
+.skewed-white-background {
+	background-color: white;
+	transform: skewY(-0.05rad);
 }
 
 #contact-info > h2 {
@@ -252,9 +254,8 @@ nav {
 
 .gradient-underline {
 	border-image: linear-gradient(to left, #800080, orange) 1;
-	border-width: 4px;
+	border-width: 8px;
 	border-bottom: solid;
-
 	display: inline-block;
 }
 
@@ -271,9 +272,6 @@ nav {
 	font-family: Lato;
 	font-size: 20px;
 	width: 550px;
-}
-
-#contact-info > button {
 }
 
 #partner-section-content {
@@ -305,6 +303,7 @@ nav {
 	padding-top: 5em;
 	padding-right: 20em;
 	padding-left: 20em;
+	padding-bottom: 5em;
 }
 
 #why-section > h2 {
@@ -318,7 +317,6 @@ nav {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 
-	padding-bottom: 50em;
 	place-items: center;
 	width: 100%;
 }
@@ -333,4 +331,44 @@ nav {
 	color: gray;
 	font-family: Lato;
 	max-width: 400px;
+}
+
+#faq-content {
+	transform: skewY(0.05rad);
+	padding-top: 5em;
+	padding-bottom: 5em;
+	padding-left: 20em;
+	padding-right: 20em;
+	font-family: Lato;
+}
+
+#faq-section {
+	display: grid;
+	place-items: center;
+}
+
+#faq-content > h2 {
+	margin-bottom: 2em;
+	font-size: 3em;
+}
+
+.faq-box {
+	border-top: 1px solid grey;
+	padding: 0px;
+	display: flex;
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+	gap: 4em;
+
+	padding: 1.5em;
+}
+
+.faq-box > svg {
+	width: 25px;
+	height: 25px;
+}
+
+.faq-box > h3 {
+	margin: 0px;
 }
