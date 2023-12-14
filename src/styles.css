@@ -66,10 +66,6 @@ nav > ul > li {
 	color: black;
 }
 
-#contact-button {
-	margin-left: auto;
-}
-
 #header-background {
 	z-index: -1;
 	position: absolute;
@@ -222,8 +218,12 @@ nav {
 	width: 115%;
 	height: auto;
 	max-height: 500px;
-
 	object-fit: cover;
+}
+
+#contact-button {
+	margin-left: auto;
+	margin-right: 15em;
 }
 
 .provide-section-card-text > h2 {
