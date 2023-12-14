@@ -46,8 +46,12 @@ nav > ul > li {
 	font-size: 20px;
 }
 
-#partner-up-button {
+.purple-bg {
 	background-color: #e04cd9;
+	color: white;
+}
+
+.button {
 	border: none;
 	text-transform: uppercase;
 	font-family: Lato;
@@ -55,7 +59,15 @@ nav > ul > li {
 	border-radius: 25px;
 	width: 200px;
 	height: 40px;
-	color: white;
+}
+
+.white-bg {
+	background-color: white;
+	color: black;
+}
+
+#contact-button {
+	margin-left: auto;
 }
 
 #header-background {
@@ -217,7 +229,6 @@ nav {
 .provide-section-card-text > h2 {
 	font-size: 40px;
 	display: inline-block;
-	max-width: min-content;
 }
 
 .provide-section-card-text > p {
@@ -234,9 +245,27 @@ nav {
 	overflow: hidden;
 }
 
+#contact-info > h2 {
+	border-image: linear-gradient(to left, #800080, orange) 1;
+	border-width: 4px;
+	border-bottom: solid;
+	font-family: Lato;
+	font-size: 40px;
+	display: inline-block;
+}
+
+#contact-info > p {
+	font-family: Lato;
+	font-size: 20px;
+	width: 550px;
+}
+
+#contact-info > button {
+}
+
 #partner-section-content {
-	padding-left: 8em;
-	padding-top: 5em;
+	padding-left: 15em;
+	padding-top: 7em;
 	transform: skewY(0.05rad);
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
