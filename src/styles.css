@@ -187,15 +187,11 @@ nav {
 	padding-top: 400px;
 }
 
-#provide-section > h1 > span {
+#provide-section > h1 {
 	color: white;
-
 	font-family: Lato;
 	font-size: 50px;
-	float: right;
-	border-image: linear-gradient(to left, #800080, orange) 1;
-	border-width: 4px;
-	border-bottom: solid;
+	margin-left: auto;
 }
 
 .provide-section-card {
