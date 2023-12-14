@@ -354,14 +354,13 @@ nav {
 
 .faq-box {
 	border-top: 1px solid grey;
-	padding: 0px;
+
 	display: flex;
 
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-right: 0.5em;
 	gap: 4em;
-
-	padding: 1.5em;
 }
 
 .faq-box > svg {
