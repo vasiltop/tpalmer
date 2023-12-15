@@ -400,6 +400,10 @@ nav {
 	font-weight: 400;
 	color: white;
 	float: right;
+
+	& span {
+		font-weight: 900;
+	}
 }
 
 #why-information {
